@@ -18,9 +18,6 @@ let package = Package(
     targets: [
         .target(
             name: "SocketRocket",
-            path: "SocketRocket",
-            cSettings: [
-                .headerSearchPath("Internal/**"),
-            ]),
+            path: "SocketRocket"),
     ]
 )
